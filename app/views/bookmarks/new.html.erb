@@ -1,0 +1,8 @@
+<h1 class="text-center">New Bookmark</h1>
+<div>
+  <%= simple_form_for @bookmark do |f| %>
+    <%= f.input :comment %>
+    <%= f.association :movie %>
+    <button type="submit" class="btn btn-light btn-block"><%= f.button :submit %></button>
+  <% end %>
+</div>

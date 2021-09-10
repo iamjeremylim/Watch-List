@@ -1,9 +1,22 @@
-<h1>My List</h1>
+<div class="banner" style="background-color: black;">
+  <div class="container">
+    <h1 class="text-center">Save any kind of movies</h1>
+    <p class="text-center">List</p>
+  </div>
+</div>
 
-<% @lists.each do |list| %>
-  <ul>
-    <li><%= link_to list.name, list_path(list) %></li>
-  </ul>
-<% end %>
 
-<%= link_to "Add to list", new_list_path %>
+<h2>My List</h2>
+
+<div class="cards-container">
+  <div class="cards">
+    <% @lists.each do |list| %>
+      <div class="card col-4" style="background-color: white">
+        <%= link_to list.name, list_path(list) %>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+
+<button type="button" class="btn btn-light"><%= link_to "Add To List", new_list_path %></button>

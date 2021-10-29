@@ -1,1 +1,7 @@
 // Specific CSS for your home-page
+.background {
+  background-image: asset-url('squid-game.jpg');
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}

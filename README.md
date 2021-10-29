@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+<p>Watchlist is a web-app for users to bookmark their favorite movies. </p>
 
-Things you may want to cover:
+<p>Current User Stories:</p>
+<ul>
+  <li> User is able to view all movie categories </li>
+  <li> User is able to view all movies within a category. </li>
+  <li> User is able to create/delete a bookmark. </li>
+</ul>
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+<p>Last update: 29 October 2021</p>
